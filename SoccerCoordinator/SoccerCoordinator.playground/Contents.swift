@@ -137,7 +137,10 @@ for players in teamDragons {
 
     
     
-    letters.append("Dear \(guardiansOne!), your child \(namesOne!) has made The Dragons. Congratulations! The practice date is as follows: March 17th @ 1 PM.")
+  letters.append("Dear \(guardiansOne!), your child \(namesOne!) has made The Dragons. Congratulations! The practice date is as follows: March 17th @ 1 PM.")
+    
+    print("Dear \(guardiansOne!), your child \(namesOne!) has made The Dragons. Congratulations! The practice date is as follows: March 17th @ 1 PM.")
+    
 }
 
 for players in teamSharks {
@@ -146,6 +149,10 @@ for players in teamSharks {
     
     
     letters.append("Dear \(guardiansTwo!), your child \(namesTwo!) has made The Sharks. Congratulations! The practice date is as follows: March 17th @ 3 PM.")
+    
+    print("Dear \(guardiansTwo!), your child \(namesTwo!) has made The Sharks. Congratulations! The practice date is as follows: March 17th @ 3 PM.")
+    
+
 
 }
 
@@ -154,8 +161,14 @@ for players in teamRaptors {
     var namesThree = players["name"]
     
     
+  letters.append("Dear \(guardiansThree!), your child \(namesThree!) has made The Raptors. Congratulations! The practice date is as follows: March 18th @ 1 PM.")
     
-    letters.append("Dear \(guardiansThree!), your child \(namesThree!) has made The Raptors. Congratulations! The practice date is as follows: March 18th @ 1 PM.")
-
+    print("Dear \(guardiansThree!), your child \(namesThree!) has made The Raptors. Congratulations! The practice date is as follows: March 18th @ 1 PM.")
+    
+    
+    
 }
+
+
+
 
